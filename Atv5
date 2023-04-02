@@ -1,0 +1,16 @@
+public class App {
+        
+            public static void main(String[] args) throws Exception {
+                
+                
+                int numero1 = 125;
+                int numero2 = 24;
+                
+                System.out.println(numero1+numero2);
+                System.out.println(numero1-numero2);
+                System.out.println(numero1*numero2);
+                System.out.println(numero1/numero2);
+                System.out.println(numero1%numero2);
+                
+                }
+            }
