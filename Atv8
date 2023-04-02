@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class App { 
+
+public static void main(String[] args) throws Exception {
+		
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Informe seu saldo: ");
+                double saldo = sc.nextDouble();
+                
+                Scanner sc2 = new Scanner(System.in);
+                System.out.println("Quantos porcento voce deseja acrecentar, Digite: Ex: - 10 porcento = (0,1) - 1 porcento = (0,01): ");
+                double porcentagem = sc2.nextDouble();
+                
+                double c = saldo*porcentagem;
+                double resultado = c + saldo;
+                
+               System.out.println("Seu saldo apos o aumento de porcentagem e: " + resultado
+    
+            }
+            }
+        
