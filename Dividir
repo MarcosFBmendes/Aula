@@ -11,7 +11,7 @@ public class App
 
          var sc2 = new Scanner(System.in);  
          double n2 = sc2.nextDouble();
-         System.out.println(n1/10n2);
+         System.out.println(n1/n2);
 
     }
 }
