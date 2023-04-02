@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class App {
+        
+            public static void main(String[] args) throws Exception {
+		
+                Scanner sc = new Scanner(System.in);
+		    
+		        System.out.print("Input a: ");
+		        double a = sc.nextDouble();
+		        System.out.print("Input b: ");
+		        double b = sc.nextDouble();
+		        System.out.print("Input c: ");
+		        double c = sc.nextDouble();
+		    
+		        double discriminante = Math.pow(b, 2) - 4*a*c;
+
+		        if (discriminante > 0) {
+		            double x1 = (-b + Math.sqrt(discriminante)) / (2*a);
+		            double x2 = (-b - Math.sqrt(discriminante)) / (2*a);
+		            System.out.println("As raízes são " + x1 + " e " + x2);
+		        } else if (discriminante == 0) {
+		            double x = -b / (2*a);
+		            System.out.println("A raiz dupla é " + x);
+		        } else {
+		            System.out.println("A equação não possui raízes reais.");
+		        }
+		        
+		        sc.close();
+		    }	
+		
+	}
