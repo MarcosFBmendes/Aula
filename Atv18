@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class App {
+	
+public static void main(String[] args) {
+
+	System.out.print("Digite seu nome:");
+    Scanner sc = new Scanner(System.in);
+	String nome = sc.next();
+
+	System.out.print("Digite um numero:");
+	Scanner sc2 = new Scanner(System.in);
+	int numero = sc2.nextInt();
+	for(int i = 0; i < numero; i++) {
+	System.out.println(nome);
+
+}
+}
+}
